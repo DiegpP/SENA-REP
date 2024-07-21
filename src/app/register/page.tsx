@@ -28,7 +28,7 @@ function RegisterPage() {
         redirect: false,
       });
 
-      if (res?.ok) return router.push("/dashboard");
+      if (res?.ok) return router.push("/dashboard/profile");
     
     console.log(res);
     }catch(error){
